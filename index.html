@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Calculator App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;800;900&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Weight Convertor</h1>
+        <div class="input-convertor">
+            <label for="pounds">Pounds:</label>
+            <input type="number" name="pounds" id="input"  placeholder="Enter weight in Pounds" step="0.1" class="input">
+        </div>
+        <p>Your Weight in kg is : <span id="result">300</span>kg</p>
+        <p class="error" id="error"></p>
+    </div>
+</body>
+</html>
